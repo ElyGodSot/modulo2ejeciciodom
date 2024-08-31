@@ -1,0 +1,20 @@
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.juana{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pedro{
+    background-color: rgb(59, 168, 55);
+    margin: 10px;
+    padding: 10px;
+}
+
+.ingresardatos{
+    padding: 30px;
+}

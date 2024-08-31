@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modulo2ejerciciodom.css">
+</head>
+<header>
+
+<h2> Mayores ventas: </h2>
+<p id="ganador"></p>
+<button type="button" class="btn btn-dark" id="depositar" onclick="ganador()">GANADOR</button>
+
+</header>
+<body>
+
+<section class="padre">
+
+<section class="ingresardatos">
+
+<label for="vendedor">VENDEDOR (juana/pedro)</label>
+<input type="text" id="vendedor" name="vendedor" required>
+<br>
+<br>
+<label for="">Aqua (unidades)</label>
+<input id="prod1" type="string">
+<br>
+<br>
+<label for="">Emoción (unidades)</label>
+<input id="prod2" type="string">
+<br>
+<br>
+<label for="">Alegría (unidades)</label>
+<input id="prod3" type="string">
+<br>
+<br>
+<label for="">Frescura (unidades)</label>
+<input id="prod4" type="string">
+<br>
+<br>
+<button type="button" class="btn btn-dark" id="depositar" onclick="submit()">SUBMIT</button>
+<br>
+<br>
+
+</section>
+
+<section class="juana">
+
+    <label for="">JUANA</label>
+    <br>
+    <br>
+    <label for="">Aqua (unidades):  </label>
+    <p id="juana1"></p>
+    <input type="text" name="j1" id="j1" value="0" hidden>
+ 
+    <label for="">Emoción (unidades):  </label>
+    <p id="juana2"></p>
+    <input type="text" name="j2" id="j2" value="0" hidden>
+  
+    <label for="">Alegría (unidades):  </label>
+    <p id="juana3"></p>
+    <input type="text" name="j3" id="j3" value="0" hidden>
+  
+    <label for="">Frescura (unidades):  </label>
+    <p id="juana4"></p>
+    <input type="text" name="j4" id="j4" value="0" hidden>
+
+    <label for="">USD: $ </label>
+    <p id="juanatotal"></p>
+    <input type="text" name="jt" id="jt" value="0" hidden>
+
+</section>
+
+<section class="pedro">
+
+    <label for="">PEDRO</label>
+    <br>
+    <br>
+    <label for="">Aqua (unidades):  </label>
+    <p id="pedro1"></p>
+    <input type="text" name="p1" id="p1" value="0" hidden>
+ 
+    <label for="">Emoción (unidades):  </label>
+    <p id="pedro2"></p>
+    <input type="text" name="p2" id="p2" value="0" hidden>
+  
+    <label for="">Alegría (unidades):  </label>
+    <p id="pedro3"></p>
+    <input type="text" name="p3" id="p3" value="0" hidden>
+  
+    <label for="">Frescura (unidades):  </label>
+    <p id="pedro4"></p>
+    <input type="text" name="p4" id="p4" value="0" hidden>
+
+    <label for="">USD: $ </label>
+    <p id="pedrototal"></p>
+    <input type="text" name="pt" id="pt" value="0" hidden>
+
+</section>
+</section>
+
+<script src="modulo2ejerciciodom.js">
+
+</script>
+
+
+               
+</body>
+</html>
